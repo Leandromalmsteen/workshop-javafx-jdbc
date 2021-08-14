@@ -30,11 +30,11 @@ public class MainViewController implements Initializable {
 	}
 	
 	public void onMenuItemDepartmentAction() {
-		System.out.println("onMenuItemDepartmentAction");
+		loadView("/gui/DepartmentList.fxml");
 	}
 	
 	public void onMenuItemAboutAction() {
-		loadView("/gui/About.fxml");;
+		loadView("/gui/About.fxml");
 	}
 	
 	@Override
